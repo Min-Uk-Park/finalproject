@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스마트 컨트랙트 상호 작용</title>
+</head>
+<body>
+    <h1>스마트 컨트랙트 상호 작용</h1>
+
+    <label for="contractAddress">컨트랙트 주소:</label>
+    <input type="text" id="contractAddress" placeholder="컨트랙트 주소 입력">
+
+    <label for="inputData">입력 데이터:</label>
+    <input type="text" id="inputData" placeholder="입력 데이터 입력">
+
+    <button onclick="interactWithContract()">컨트랙트와 상호 작용</button>
+
+    <div id="output"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
